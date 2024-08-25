@@ -55,6 +55,12 @@ body {
     /* Add space below the animation */
 }
 
+
+.loading__anim:hover {
+    cursor: pointer;
+    animation: rotate 1s infinite linear;
+}
+
 /* Optional: Add some text styling for loading message */
 .loading__text {
     width: 100%;
